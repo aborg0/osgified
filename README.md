@@ -1,0 +1,2 @@
+# osgified
+OSGified bundles
