@@ -27,6 +27,11 @@
 								<artifact>
 									<id>com.amazonaws:aws-java-sdk-s3:1.10.43</id>
 									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Import-Package>*</Import-Package>
+										<Export-Package>com.amazonaws.services.s3.*</Export-Package>
+									</instructions>
 								</artifact>
 							</artifacts>
 						</configuration>
